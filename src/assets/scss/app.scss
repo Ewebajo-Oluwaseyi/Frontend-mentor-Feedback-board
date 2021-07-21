@@ -1,0 +1,49 @@
+@import 'custom/fonts/fonts';
+
+//core files
+@import 'variables';
+
+//structure
+@import 'custom/structure/content';
+@import 'custom/structure/header';
+@import 'custom/structure/sidebar';
+@import 'custom/structure/layout';
+@import 'custom/structure/footer';
+
+@import './icons.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+::before,
+::after {
+  background-repeat: no-repeat;
+  box-sizing: inherit;
+}
+html,
+body {
+  font-family: 'Jost', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: $dark_blue;
+}
+a {
+  color: white !important;
+  text-decoration: none;
+}
+.btn {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  outline: 0;
+  position: relative;
+  text-decoration: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
