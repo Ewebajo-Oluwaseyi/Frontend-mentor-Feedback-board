@@ -2,9 +2,10 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.PNG)
 
 ### Links
+
 - Live Site URL: [Nelitfy]()
 
 ### Built with
